@@ -12,6 +12,7 @@
   * Laura Cofre
   * Carlos Rojas
   * Jose Ortega
+  * Walter Montoya 
 
 # Tecnologia utilizadas
 ## Desarrollo del proyecto:

@@ -1,7 +1,7 @@
 /* Card.css */
 .card {
-    width: 80px;
-    height: 80px;
+    width: 250px;
+    height: 200px;
     border: 2px solid violet;
     border-radius: 8px;
     margin: 10px;

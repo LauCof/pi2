@@ -12,7 +12,7 @@ const Header = () => {
       </div>
       <div className='header__right'>
         <button>Crear cuenta</button>
-        <button>Iniciar sesión</button>
+        <button className='b1'>Iniciar sesión</button>
       </div>
     </header>
   )

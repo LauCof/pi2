@@ -1,8 +1,41 @@
 .home {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-    min-height: calc(100vh - 200px);
-    margin-top: 80px; /* Ajusta este valor según la altura de tu header */
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #F6E8ED;
+  flex-direction: column;
+}
+
+.home div {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.home input{
+  height: 50px;
+}
+
+.home img {
+    width : 50px; /* Tamaño automático (tamaño real) */
+    height: 50px; /* Tamaño automático (tamaño real) */
+}
+
+.home h2{
+  color: black;
+  text-align: center;
+}
+
+.buscador {
+  background-color: #f8c458;
+  padding: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.recomendado {
+  background-color: lavender;
+}
+
+

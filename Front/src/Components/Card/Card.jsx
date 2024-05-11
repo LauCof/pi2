@@ -1,8 +1,12 @@
 
+import "./Card.css";
+
 const Card = () => {
   return (
-    <div>Card</div>
-  )
-}
+    <div className="card">
+      {/* Contenido de la card */}
+    </div>
+  );
+};
 
-export default Card
+export default Card;

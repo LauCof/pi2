@@ -1,0 +1,8 @@
+/* Card.css */
+.card {
+    width: 80px;
+    height: 80px;
+    border: 2px solid violet;
+    border-radius: 8px;
+    margin: 10px;
+  }

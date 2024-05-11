@@ -3,8 +3,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #774c81;
-  padding: 10px 20px;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -27,6 +26,7 @@
 
 .header__right button {
   margin-left: 10px;
+  margin-right: 20px;
   padding: 8px 16px;
   background-color: #333;
   color: #fff;

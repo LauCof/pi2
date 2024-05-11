@@ -1,6 +1,6 @@
 /* Footer.css */
 .footer {
-    background-color: #f8f8f8;
+    background-color: #774c81;
     padding: 40px 0;
     width: 100%;
     margin-top: auto;
@@ -30,7 +30,7 @@
   }
   
   .footer-section p {
-    color: #777;
+    color: #f6e8ed;
     font-size: 14px;
   }
   
@@ -45,7 +45,7 @@
   }
   
   .footer-section ul li a {
-    color: #777;
+    color: #f6e8ed;
     text-decoration: none;
   }
   
@@ -65,6 +65,6 @@
   .footer-bottom {
     margin-top: 20px;
     text-align: center;
-    color: #777;
+    color: #f6e8ed;
     font-size: 14px;
   }

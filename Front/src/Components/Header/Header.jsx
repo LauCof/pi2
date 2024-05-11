@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.svg';
 import './Header.css';
 
 const Header = () => {
@@ -8,7 +8,6 @@ const Header = () => {
       <div className='header__left'>
         <Link to="/">
           <img src={logo} alt="" />
-          <span>Lema</span>
         </Link>
       </div>
       <div className='header__right'>

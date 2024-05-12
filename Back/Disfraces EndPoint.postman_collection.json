@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "4f73bda8-a747-42ee-9158-37843e60f571",
+		"name": "Disfraces EndPoint",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26854859"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"fecha\": \"2023-11-11\",\r\n        \"nombre\": \"Superman\",\r\n        \"descripcion\": \"logo en rojo\",\r\n        \"precio\": \"58000.34\",\r\n        \"imagen\": \"Superman de pie con brazos a la cintura\"\r\n  }\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/disfraces/registrar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"disfraces",
+						"registrar"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

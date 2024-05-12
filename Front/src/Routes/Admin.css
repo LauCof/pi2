@@ -1,0 +1,50 @@
+.adm-div{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    flex-direction: column;
+    height: 60vh; 
+    width: 100vw; 
+}
+
+.adm {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .adm button{
+    height: 40px;
+    width: 420px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 8px 16px;
+    background-color: #774c81;
+    color: #f8c458;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 15px;
+  }
+
+  .adm button :hover{
+    box-shadow: 0 12px 14px rgba(0, 0, 0, 0.1);
+  }
+
+  .adm-search{
+    color: #774c81;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+.adm-search input{
+    background-color: #F6E8ED;
+    width: 400px;
+    height: 35px;
+    border-radius: 25px;
+    padding-left: 10px;
+}

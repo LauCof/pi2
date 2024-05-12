@@ -16,7 +16,7 @@ import java.time.LocalDate;
 public class Disfraz {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Long id;
     @Column(name = "fecha")
     private LocalDate fecha;
     @Column(name = "nombre")
@@ -27,4 +27,19 @@ public class Disfraz {
     private double precio;
     @Column(name = "imagen")
     private String imagen;
+
+
+
+    @Override
+    public String toString() {
+        return "Disfraz{" +
+                "\n id=" + id +
+                ",\n fecha=" + fecha +
+                ",\n nombre='" + nombre + '\'' +
+                ",\n descripcion='" + descripcion + '\'' +
+                ",\n precio=" + precio +
+                ",\n imagen='" + imagen + '\'' +
+                "\n}";
+    }
+
 }

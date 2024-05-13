@@ -30,6 +30,8 @@ public class DisfrazController {
 
     }
 
+
+
     /**@GetMapping("/listar")
     public ResponseEntity<List<Disfraz>> obtenerDisfracesAleatorios() {
         List<Disfraz> disfracesAleatorios = disfrazService.obtenerDisfracesAleatorios(10);

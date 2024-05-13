@@ -29,7 +29,6 @@ public class Disfraz {
     private String imagen;
 
 
-
     @Override
     public String toString() {
         return "Disfraz{" +

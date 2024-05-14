@@ -8,7 +8,7 @@ const Admin = () => {
         <input type="text" placeholder="Buscar producto..."/>
         </section>
         <section className="adm">
-            <button>Agregar prodcuto</button>
+            <button>Agregar producto</button>
             <button>Modificar producto</button>
             <button>Eliminar producto</button>
         </section>

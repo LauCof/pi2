@@ -43,8 +43,14 @@
 
 .adm-search input{
     background-color: #F6E8ED;
+    color:#774c81;
     width: 400px;
     height: 35px;
     border-radius: 25px;
     padding-left: 10px;
 }
+
+.adm-search ::placeholder{
+    color: #774c81;
+}
+

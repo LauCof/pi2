@@ -1,24 +1,21 @@
-import Card from "../Components/Card/Card";
+import React from 'react';
 import "./Home.css";
 import lupa from "../assets/lupa.png";
 import { Link } from 'react-router-dom';
 import Categorias from "../Components/Categoria/Categorias";
-import Recomendaciones from "../Components/Recomendacion/Recomendaciones";
+import ProductList from "../Components/ProducList/ProductList";
 
 
-const Home = () => {
+const Home = ({ products }) => {
   return (
     <div className="home">
-
       <section className="buscador">
-          <input type="text" placeholder="¿Qué Disfraz buscas?"/>
-          <Link><img src={lupa} alt="" /></Link>
+        <input type="text" placeholder="¿Qué Disfraz buscas?"/>
+        <Link><img src={lupa} alt="" /></Link>
       </section>
-      
       <Categorias/>
- 
-      <Recomendaciones/>
-  
+   
+      <ProductList products={products} />
     </div>
   );
 };

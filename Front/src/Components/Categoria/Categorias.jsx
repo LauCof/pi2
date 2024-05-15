@@ -4,7 +4,7 @@ import Card from '../Card/Card'
 const Categorias = () => {
   return (
 
-    <section>
+    <section className='categorias'>
         <h2>Categorias</h2>
         <div>
           <Card />
